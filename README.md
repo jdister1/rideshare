@@ -18,4 +18,4 @@ Because I don't have access too a premium subscription to an applicaiton like Lu
 
 ### Step 4: The Docker Environment
 
-In Progress
+I have a Dockerfile that defines the image for my react app, installs dependencies, and exposes the port for it to run on. Then my docker compose files orchestrates the running of that image by using the command npm start and binding my local port 3000 to the exposed docker port. It also sets the environment variable to production, but this can be changes to the appropriate environment as required.

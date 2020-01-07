@@ -14,8 +14,23 @@ For JSON Data I like to use a website called Code Beautify (https://codebeautify
 
 ### Step 3: Wireframing
 
-Because I don't have access too a premium subscription to an applicaiton like LucidChart, I decided to use a free software called Draw.io that will allow me to make very basic wireframes and flowcharts that I can share within this git repository. It doesn't look very professional, but I hope it demonstrates my thought process and how I quickly layout pages in terms of basic/modular elements (in this case a table and header).
+Initial wireframes I created for basic page layout can be found in the folder wireframes/wireframes.pdf
 
 ### Step 4: The Docker Environment
 
 I have a Dockerfile that defines the image for my react app, installs dependencies, and exposes the port for it to run on. Then my docker compose files orchestrates the running of that image by using the command npm start and binding my local port 3000 to the exposed docker port. It also sets the environment variable to production, but this can be changes to the appropriate environment as required.
+
+### Running Application
+
+The application can be run via docker compose with the command *docker-compose up web*
+
+### Third Party Libraries Used
+
+The following third parties were used to provide rapid development of features:
+https://reacttraining.com/react-router/
+https://www.ag-grid.com/
+https://react-bootstrap.github.io/
+
+### Implementation Plan and Future Steps
+
+A basic diagram providing a high level timeline of next steps can be found in implementation_plan/plan.pdf

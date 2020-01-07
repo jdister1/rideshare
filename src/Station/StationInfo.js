@@ -22,7 +22,7 @@ const StationInfo = props => {
 
   }, []);
 
-  let content = <Spinner animation="border" />//<p>Loading Station Info</p>
+  let content = <Spinner animation="border" />
 
   if (!isLoading)
     content = (
